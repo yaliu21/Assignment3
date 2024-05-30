@@ -12,7 +12,6 @@ header {
     background-color: #A9BE8A;
     color: white;
 }
-    
 
 .top-banner {
     background-color: #6E8069;
@@ -297,17 +296,27 @@ h1 {
     margin: 5px 0;
 }
 
-.price {
-    color: #ff7272;
-    font-weight: bold;
+.products .product .price {
     position: absolute;
     bottom: 2px;
     left: 10px;
+    font-size: 1.3em;
+}
+
+.product-info .price {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #D486A4;
+    gap: 10px;
 }
 
 .old-price {
-    text-decoration: line-through;
     color: grey;
+    text-decoration: line-through;
 }
 
 footer {
