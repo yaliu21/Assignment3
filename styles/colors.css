@@ -1,0 +1,158 @@
+/* colors.css */
+
+/* Navigation Bar */
+.top-banner {
+    background-color: #6E8069;
+    color: white;
+}
+
+.nav-links a {
+    color: #ffffff;
+}
+
+.dropdown-content, .sub-dropdown-content {
+    background-color: #f9f9f9;
+}
+
+.dropdown-content a, .sub-dropdown-content a {
+    color: #333333;
+}
+
+.search input[type="text"] {
+    background-color: white;
+    color: grey;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #f9f9f9;
+    background-color: #A9BE8A;
+}
+
+.hero h2 {
+    color: #333333;
+}
+
+.sale-info .sale-highlight {
+    color: #D486A4;
+}
+
+.sale-info .sale-subtext {
+    color: #333333;
+}
+
+.hero button {
+    background-color: #D486A4;
+    color: white;
+}
+
+/* Quick Access Button */
+.quick-access-button.dog-button {
+    background-color: #93AE6D; 
+}
+
+.quick-access-button.cat-button {
+    background-color: #D486A4; 
+}
+
+/* Product List */
+.product {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    color: #D486A4;
+}
+
+.old-price {
+    color: grey;
+}
+
+.stock-status {
+    background-color: #D486A4;
+    color: white;
+}
+
+.sale-tag {
+    background-color: #D486A4;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #A9BE8A;
+    color: white;
+}
+
+.footer-section ul li a {
+    color: white;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    color: #666666;
+}
+
+.breadcrumb a {
+    color: #666666;
+}
+
+/* Banner */
+.banner-section {
+    background-color: #a9be8a;
+}
+
+.banner-title {
+    color: white;
+}
+
+/* Category */
+.product-category-section {
+    background-color: #ffffff;
+}
+
+.product-category-button {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-category-button span {
+    color: #333333;
+}
+
+/* Variations */
+.size-quantity select {
+    background-color: #f5f5f5;
+}
+
+.quantity button {
+    background-color: #f5f5f5;
+}
+
+.quantity input {
+    background-color: #f5f5f5;
+}
+
+#dog-name  {
+    background-color: #f5f5f5;
+}
+
+.add-to-cart-button {
+    color: white;
+    background-color: #a9be8a;
+}
+
+.accordion-header {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.accordion-icon {
+    color: #999;
+}

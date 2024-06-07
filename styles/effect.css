@@ -1,0 +1,81 @@
+/* Effects CSS file */
+
+/* Navigation Bar */
+.nav-links a:hover {
+    color: #333333;
+}
+
+.dropdown-content, .sub-dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a:hover, .sub-dropdown-content a:hover {
+    background-color: #A9BE8A;
+    color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li:hover .sub-dropdown-content {
+    display: block;
+}
+
+/* Hero Section */
+.hero button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Quick Access Button */
+.quick-access-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Category */
+.product-category-button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-category-button:hover {
+    background-color: #d4e1d5;
+    transform: translateY(-5px);
+}
+
+.product-category-button.active {
+    background-color: #a9be8a;
+    color: white;
+}
+
+/* Product List */
+.sale-tag {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Breadcrumb */
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Product Page Info */
+.accordion-header:hover {
+    background-color: #f9f9f9;
+}
+
+.add-to-cart-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail-images img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

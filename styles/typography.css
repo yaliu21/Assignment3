@@ -1,0 +1,173 @@
+/* typography.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    font-family: "Jua", sans-serif;
+}
+
+/* Navigation Bar */
+.top-banner {
+    text-align: center;
+    font-size: 14px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dropdown-content a, .sub-dropdown-content a {
+    text-decoration: none;
+    text-align: left;
+}
+
+.search input[type="text"] {
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.8em;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.hero h2 {
+    font-size: 1.8em;
+}
+
+.sale-info .sale-highlight {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.sale-info .sale-subtext {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero button {
+    font-size: 1.5em;
+}
+
+/* Product List */
+.best-sellers h2 {
+    font-size: 2em; 
+}
+
+.product {
+    text-align: left; 
+}
+
+.product-info .price {
+    font-size: 1.5em;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.sale-tag {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+/* Banner */
+.banner-title {
+    font-size: 2em;
+    font-family: 'Jua', sans-ser
+}
+
+/* Category */
+.product-category-button {
+    text-align: center;
+}
+
+.product-category-button span {
+    font-size: 16px;
+}
+
+/* Product Info */
+.product-info h2 {
+    font-size: 2em;
+}
+
+.product-info p {
+    font-size: 0.8em;
+}
+
+.stock-status {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Variations */
+.size-section label, .quantity-section label {
+    font-size: 1.2em;
+}
+
+.size-quantity select {
+    text-align: center;
+}
+
+.quantity button {
+    font-size: 16px;
+}
+
+.quantity input {
+    text-align: center;
+    font-size: 16px;
+}
+
+#dog-name  {
+    font-size: 16px;
+}
+
+.add-to-cart-button {
+    font-size: 1.2em;
+}
+
+.accordion-header {
+    text-align: left;
+    font-size: 18px;
+}
+
+.accordion-icon {
+    font-size: 24px;
+}
