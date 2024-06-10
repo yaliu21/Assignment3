@@ -7,7 +7,7 @@
 }
 
 .nav-links a {
-    color: #ffffff;
+    color: white;
 }
 
 .dropdown-content, .sub-dropdown-content {
@@ -29,7 +29,7 @@
 }
 
 h1 {
-    color: #f9f9f9;
+    
     background-color: #A9BE8A;
 }
 
@@ -63,7 +63,9 @@ h1 {
 .product {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333333;
 }
+
 
 .price {
     color: #D486A4;
@@ -112,10 +114,6 @@ footer {
 }
 
 /* Category */
-.product-category-section {
-    background-color: #ffffff;
-}
-
 .product-category-button {
     background-color: #f5f5f5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -142,13 +140,7 @@ footer {
     background-color: #f5f5f5;
 }
 
-.add-to-cart-button {
-    color: white;
-    background-color: #a9be8a;
-}
-
 .accordion-header {
-    background-color: #fff;
     color: #333;
     border: 1px solid #ddd;
 }
@@ -160,11 +152,6 @@ footer {
 /* button */
 .continue-shopping {
     color: #333333;
-}
-
-.checkout-button {
-    background-color: #A9BE8A;
-    color: white;
 }
 
 /* cart list */
@@ -180,16 +167,6 @@ footer {
     color: #333333;
 }
 
-.pay-button {
-    background-color: #A9BE8A;
-    color: white;
-}
-
 .summary-box {
     background-color: #F2F2F2;
-}
-
-.back-home-button {
-    background-color: #A9BE8A;
-    color: white;
 }

@@ -40,9 +40,26 @@ h1 {
     padding: 20px 0px;
 }
 
-.hero h2 {
-    font-size: 1.8em;
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0px;
 }
+
+h3 {
+    font-size: 1.6em;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+p {
+    font-size: 1em;
+}
+
 
 .sale-info .sale-highlight {
     font-size: 3.5em;
@@ -50,7 +67,7 @@ h1 {
     margin-right: 10px;
 }
 
-.sale-info .sale-subtext {
+.sale-info .sale-subtext, .hero h3{
     font-size: 2em;
     font-weight: bold;
 }
@@ -63,13 +80,13 @@ h1 {
     font-size: 1.5em;
 }
 
-/* Product List */
-.best-sellers h2 {
-    font-size: 2em; 
+.best-sellers h2{
+    text-align: left;
 }
-
-.product {
+/* Product List */
+.products a{
     text-align: left; 
+    text-decoration: none;
 }
 
 .product-info .price {
@@ -77,6 +94,7 @@ h1 {
 }
 
 .price {
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -102,6 +120,7 @@ h1 {
 /* Breadcrumb */
 .breadcrumb {
     font-size: 14px;
+    font-family: 'Arial', sans-serif;
 }
 
 .breadcrumb a {
@@ -125,11 +144,7 @@ h1 {
 
 /* Product Info */
 .product-info h2 {
-    font-size: 2em;
-}
-
-.product-info p {
-    font-size: 0.8em;
+    text-align: left;
 }
 
 .stock-status {
@@ -159,9 +174,6 @@ h1 {
     font-size: 16px;
 }
 
-.add-to-cart-button {
-    font-size: 1.2em;
-}
 
 .accordion-header {
     text-align: left;
@@ -178,22 +190,17 @@ h1 {
 }
 
 .item-price {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .summary-item, .summary-total {
     font-family: 'Arial', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .summary-total {
     font-weight: bold;
-    font-size: 1.3em;
-}
-
-.checkout-button {
-    font-size: 1em;
-    text-align: center;
+    font-size: 1.5em;
 }
 
 .continue-shopping {
@@ -204,18 +211,7 @@ h1 {
     font-size: 1em;
 }
 
-.form-group h2, .summary-box h2{
+.form-group h3, .summary-box h3{
     font-weight: bold;
     font-family: 'Arial', sans-serif;
-}
-
-.pay-button {
-    font-size: 1em;
-    text-align: center;
-
-}
-
-.back-home-button {
-    text-decoration: none;
-    font-size: 1em;
 }

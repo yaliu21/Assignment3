@@ -16,23 +16,23 @@
         </div>
         <nav class="main-nav">
             <div class="logo">
-                <img src="images/logo.png" alt="Pet Supplies Australia Logo">
+                <a href="home.html"><img src="images/logo.png" alt="Pet Supplies Australia Logo"></a>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li class="dropdown">
-                    <a href="#">Shop</a>
+                    <a href="product-list.html">Shop</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Dog</a>
                             <ul class="sub-dropdown-content">
-                                <li><a href="#">All</a></li>
-                                <li><a href="#">Feeding</a></li>
-                                <li><a href="#">Beds</a></li>
-                                <li><a href="#">Grooming</a></li>
-                                <li><a href="#">Toys</a></li>
-                                <li><a href="#">Collars & Leads</a></li>
-                                <li><a href="#">Travel</a></li>
-                                <li><a href="#">Cleaner</a></li>
+                                <li><a href="product-list.html">All</a></li>
+                                <li><a href="product-list.html">Feeding</a></li>
+                                <li><a href="product-list.html">Beds</a></li>
+                                <li><a href="product-list.html">Grooming</a></li>
+                                <li><a href="product-list.html">Toys</a></li>
+                                <li><a href="product-list.html">Collars & Leads</a></li>
+                                <li><a href="product-list.html">Travel</a></li>
+                                <li><a href="product-list.html">Cleaner</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Cat</a></li>
@@ -64,11 +64,11 @@
                     <div class="cart-item" id="product-1">
                         <img src="images/products/product1.jpg" alt="Personalised Dog Collar" class="item-image">
                         <div class="item-details">
-                            <h2 class="item-title">Personalised Dog Collar</h2>
+                            <h3 class="item-title">Personalised Dog Collar</h3>
                             <p class="item-variation">Blue/M</p>
                             <div class="quantity">
                                 <button class="quantity-button" onclick="decreaseQuantity('product-1')">-</button>
-                                <input type="number" id="quantity-product-1" value="1">
+                                <input type="number" id="quantity-product-1" value="1"readonly>
                                 <button class="quantity-button" onclick="increaseQuantity('product-1')">+</button>
                             </div>
                         </div>
@@ -78,11 +78,11 @@
                     <div class="cart-item" id="product-2">
                         <img src="images/products/product2.png" alt="Pets Slow Feeder Dog Bowl" class="item-image">
                         <div class="item-details">
-                            <h2 class="item-title">Pets Slow Feeder Dog Bowl</h2>
+                            <h3 class="item-title">Pets Slow Feeder Dog Bowl</h3>
                             <p class="item-variation">Blue</p>
                             <div class="quantity">
                                 <button class="quantity-button" onclick="decreaseQuantity('product-2')">-</button>
-                                <input type="number" id="quantity-product-2" value="1">
+                                <input type="number" id="quantity-product-2" value="1"readonly>
                                 <button class="quantity-button" onclick="increaseQuantity('product-2')">+</button>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                     <p class="summary-item">Subtotal: <span>$85.98</span></p>
                     <p class="summary-item">Discount: <span>$0.00</span></p>
                     <p class="summary-total">Total: <span>$85.98</span></p>
-                    <button class="checkout-button">Checkout</button>
+                    <a href="checkout.html" class="green-button">Checkout</a>
                 </div>
             </div>
         </div>
