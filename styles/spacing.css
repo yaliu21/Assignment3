@@ -64,7 +64,7 @@
 }
 
 .product {
-    padding: 10px;
+    padding: 20px;
 }
 
 .product p {
@@ -222,4 +222,155 @@ footer {
 
 .accordion-header {
     padding: 15px;
+}
+
+.item-quantity {
+    gap: 5px;
+}
+
+.quantity-button {
+    padding: 5px 10px;
+}
+
+.quantity-input {
+    padding: 5px;
+}
+
+.item-price {
+    margin-right: 20px;
+}
+
+.cart-content {
+    gap: 20px;
+}
+
+.cart-items {
+    gap: 20px;
+}
+
+.cart-item {
+    padding: 20px;
+}
+
+.item-details {
+    margin-left: 20px;
+}
+
+/* cart total */
+.cart-summary {
+    padding: 20px;
+}
+
+.summary-item, .summary-total {
+    margin-bottom: 10px;
+}
+
+.summary-total {
+    margin-top: 20px;
+}
+
+.checkout-button {
+    padding: 15px;
+}
+
+/* vheckout */
+.check-container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* button */
+.back-button {
+    margin-bottom: 20px;
+}
+
+.back-button img {
+    margin-right: 8px;
+}
+
+.checkout-title {
+    margin-bottom: 20px;
+}
+
+/* checkoutcontent */
+.checkout-content {
+    gap: 20px;
+}
+
+/* form */
+.form-section {
+    gap: 20px;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+.form-group h2 {
+    margin-bottom: 10px;
+}
+
+.form-row {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-row input, .form-row select {
+    padding: 10px;;
+}
+
+.summary-box {
+    padding: 20px;
+}
+
+.summary-box h2 {
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    margin-bottom: 10px;
+}
+
+.summary-item img {
+    margin-right: 10px;
+}
+
+.summary-item div {
+    flex: 1;
+}
+
+.summary-item p {
+    margin: 0;
+}
+
+
+.summary-totals {
+    margin-top: 20px;
+}
+
+.summary-total {
+    margin-top: 10px;
+}
+
+.pay-button {
+    padding: 15px;
+}
+
+/* comfirmation container */
+.confirmation-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.confirmation-box {
+    padding: 40px;
+}
+
+.confirmation-box p {
+    padding: 20px;
+}
+
+.back-home-button {
+    margin-top: 20px;
+    padding: 15px 30px;
 }

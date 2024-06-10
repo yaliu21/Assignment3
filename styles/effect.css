@@ -79,3 +79,20 @@
 .thumbnail-images img:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* cart total */
+.cart-summary, .summary-box {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-box {
+    box-shadow: 0 2px 10px rgba(169, 190, 138, 0.8);
+}
+
+.back-home-button:hover {
+    background-color: #92a771;
+}

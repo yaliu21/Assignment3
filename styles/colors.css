@@ -156,3 +156,40 @@ footer {
 .accordion-icon {
     color: #999;
 }
+
+/* button */
+.continue-shopping {
+    color: #333333;
+}
+
+.checkout-button {
+    background-color: #A9BE8A;
+    color: white;
+}
+
+/* cart list */
+.cart-title {
+    color: #333333;
+}
+
+.item-variation {
+    color: grey;
+}
+
+.item-price {
+    color: #333333;
+}
+
+.pay-button {
+    background-color: #A9BE8A;
+    color: white;
+}
+
+.summary-box {
+    background-color: #F2F2F2;
+}
+
+.back-home-button {
+    background-color: #A9BE8A;
+    color: white;
+}

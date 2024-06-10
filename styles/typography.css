@@ -171,3 +171,51 @@ h1 {
 .accordion-icon {
     font-size: 24px;
 }
+
+
+.quantity-input {
+    text-align: center;
+}
+
+.item-price {
+    font-size: 1.2em;
+}
+
+.summary-item, .summary-total {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1em;
+}
+
+.summary-total {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.checkout-button {
+    font-size: 1em;
+    text-align: center;
+}
+
+.continue-shopping {
+    font-family: 'Arial', sans-serif;
+}
+
+.form-row input, .form-row select {
+    font-size: 1em;
+}
+
+.form-group h2, .summary-box h2{
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.pay-button {
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.back-home-button {
+    text-decoration: none;
+    font-size: 1em;
+}
