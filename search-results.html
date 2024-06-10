@@ -52,55 +52,89 @@
             </div>
         </nav>
     </header>
-        
 
     <main>
-        <div class="cart-container">
-            <a href="product-list.html" class="continue-shopping">Continue Shopping</a>
-            <h2 class="cart-title">My Cart</h2>
-            <div class="cart-content">
-                <!-- Cart Items -->
-                <div class="cart-items">
-                    <div class="cart-item" id="product-1">
-                        <img src="images/products/product1.jpg" alt="Personalised Dog Collar" class="item-image">
-                        <div class="item-details">
-                            <h3 class="item-title">Personalised Dog Collar</h3>
-                            <p class="item-variation">Blue/M</p>
-                            <div class="quantity">
-                                <button class="quantity-button" onclick="decreaseQuantity('product-1')">-</button>
-                                <input type="number" id="quantity-product-1" value="1"readonly>
-                                <button class="quantity-button" onclick="increaseQuantity('product-1')">+</button>
-                            </div>
-                        </div>
-                        <p class="item-price">$59.99</p>
-                        <img src="images/icons/bin-svgrepo-com.svg" alt="Bin" class = "remove-item">
-                    </div>
-                    <div class="cart-item" id="product-2">
-                        <img src="images/products/product2.png" alt="Pets Slow Feeder Dog Bowl" class="item-image">
-                        <div class="item-details">
-                            <h3 class="item-title">Pets Slow Feeder Dog Bowl</h3>
-                            <p class="item-variation">Blue</p>
-                            <div class="quantity">
-                                <button class="quantity-button" onclick="decreaseQuantity('product-2')">-</button>
-                                <input type="number" id="quantity-product-2" value="1"readonly>
-                                <button class="quantity-button" onclick="increaseQuantity('product-2')">+</button>
-                            </div>
-                        </div>
-                        <p class="item-price">$25.99</p>
-                        <img src="images/icons/bin-svgrepo-com.svg" alt="Bin" class = "remove-item">
-                    </div>
+
+        <!-- Breadcrumb Section -->
+        <section class="breadcrumb-section">
+            <div class="breadcrumb">
+                <a href="home.html">Home</a> &gt; Search
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="banner-section">
+            <div class="banner-content">
+                <h2 class="banner-title">Search Results</h2>
+            </div>
+        </section>
+
+        <!-- Product Section -->
+        <section class="product-section">
+            <div class="products">
+            <a href="product-page.html">
+            <div class="product">
+                <div class="sale-tag">Sale</div>
+                <img src="images/products/product1.jpg" alt="Personalised Dog Collar"class="product-image">
+                <h4>Personalised Dog Collar</h4>
+                <p>Free engraving</p>
+                <p class="price">$59.99 <span class="old-price">$99.99</span></p>
+                <div class="rating">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <span>(7)</span>
                 </div>
-                <!-- Cart Summary -->
-                <div class="cart-summary">
-                    <p class="summary-item">Subtotal: <span>$85.98</span></p>
-                    <p class="summary-item">Discount: <span>$0.00</span></p>
-                    <p class="summary-total">Total: <span>$85.98</span></p>
-                    <a href="checkout.html" class="green-button">Checkout</a>
+            </div></a>
+            <a href="product2-page.html">
+            <div class="product">
+                <div class="sale-tag">Sale</div>
+                <img src="images/products/product2.png" alt="Pet Slow Feeder Dog Bowl"class="product-image">
+                <h4>Pet Slow Feeder Dog Bowl</h4>
+                <p class="price">$59.99 <span class="old-price">$99.99</span></p>
+                <div class="rating">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <span>(17)</span>
                 </div>
             </div>
-        </div>
+            </a>
+            <div class="product">
+                <div class="sale-tag">Sale</div>
+                <img src="images/products/product3.png" alt="Travel Pet Water & Treat Bottle"class="product-image">
+                <h4>Travel Pet Water & Treat Bottle</h4>
+                <p class="price">$21.99 <span class="old-price">$35.99</span></p>
+                <div class="rating">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <span>(54)</span>
+                </div>
+            </div>
+            <div class="product">
+                <div class="sale-tag">Sale</div>
+                <img src="images/products/product4.jpg" alt="Pet Deshedding Gloves"class="product-image">
+                <h4>Pet Deshedding Gloves</h4>
+                <p class="price">$35.99 <span class="old-price">$59.99</span></p>
+                <div class="rating">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <img src="images/star-solid.svg" alt="Star">
+                    <span>(26)</span>
+                </div>
+            </div>
+            </div>
+        </section>
     </main>
-    
     <! --- Footer --->
 
     <footer>

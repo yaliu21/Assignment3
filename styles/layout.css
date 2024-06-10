@@ -48,11 +48,12 @@
     width: 200px;
 }
 
-.search img {
+.search a {
     position: absolute;
     right: 10px;
     height: 20px;
     cursor: pointer;
+    margin-bottom: 7px;
 }
 
 .icons {
@@ -299,8 +300,8 @@ footer {
 }
 
 .colors img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
 }
 
