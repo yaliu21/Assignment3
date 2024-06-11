@@ -136,6 +136,10 @@
     justify-content: center;
 }
 
+.product-section .products{
+    flex-wrap: wrap;
+}
+
 .product {
     width: 250px;
     height: 400px;
@@ -236,6 +240,7 @@ footer {
 .product-category-buttons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product-category-button {
@@ -524,7 +529,7 @@ footer {
 }
 
 /* for iPhone 12 Pro, 390 x 844 (portrait) */
-@media (max-width: 391px) {
+@media (max-width: 500px) {
     .menu{
         width: 32px;
         display: block;

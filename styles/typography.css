@@ -216,7 +216,7 @@ p {
     font-family: 'Arial', sans-serif;
 }
 
-@media (max-width: 391px) {
+@media (max-width: 500px) {
     h1 {
         font-size: 2em;
         text-align: center;
@@ -274,8 +274,7 @@ p {
         font-size: 18px;
     }
     .footer-section h3 {
-        text-align: center;
-        
+        text-align: center;        
         font-size: 1em;
         margin-bottom: 5px;
     }
