@@ -523,7 +523,7 @@ footer {
     height: 100px;
 }
 
-/* 针对小屏幕的调整 */
+/* for iPhone 12 Pro, 390 x 844 (portrait) */
 @media (max-width: 391px) {
     .menu{
         width: 32px;
@@ -633,7 +633,7 @@ footer {
         width: 20px;
         position: absolute;
         bottom: 5px;
-        right: 2px;
+        right: 1px;
     }
     
     .products .product .rating {
@@ -670,7 +670,8 @@ footer {
     }
 
     .footer-section {
-        width: 50%; 
+        align-content: center;
+        width: 100%; 
     }
     
     .social-icons img {
@@ -707,7 +708,7 @@ footer {
 }
 
 .product-images, .product-info {
-    text-align: center; /* 确保图片居中显示 */
+    text-align: center; 
     width: 100%;
 }
 
@@ -726,6 +727,7 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 .product-info {
     text-align: left;
