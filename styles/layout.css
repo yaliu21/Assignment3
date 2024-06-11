@@ -16,6 +16,10 @@
     flex-wrap: wrap;
 }
 
+.menu{
+    display: none;  
+}
+
 .logo img {
     width: 150px;
 }
@@ -100,6 +104,7 @@
 .quick-access-buttons {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .quick-access-button {
@@ -516,4 +521,297 @@ footer {
 .confirmation-icon img{
     width: 100px;
     height: 100px;
+}
+
+/* 针对小屏幕的调整 */
+@media (max-width: 391px) {
+    .menu{
+        width: 32px;
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 50px; 
+        cursor: pointer;
+    }
+
+    .logo img{
+        width: 110px;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center; 
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+    .search {
+        display: flex;
+        justify-content: center;
+        width: 360px;
+    }
+
+    .search input[type="text"] {
+        flex-grow: 1;
+        margin-right: 10px; 
+    }
+
+    .icons .user {
+        position: absolute;
+        right: 50px; 
+        top: 50px; 
+    }
+
+    .icons .cart{
+        position: absolute;
+        right: 10px;
+        top: 50px;
+    }
+    
+    .hero-text {
+        white-space: nowrap;
+    }   
+    
+    .sale-subtext {
+        display: block;
+    }
+    
+    .hero-image img {
+        width: 120%;
+    }
+
+    .best-sellers-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quick-access-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .quick-access-button {
+        width: 130px;
+        height: 130px;
+    }
+
+    .product-section .products {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .product {
+        width: 150px;
+        height: 260px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .product-image {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .best-sellers .product {
+        width: 100px;
+        height: 225px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .best-sellers .product-image {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    
+    .plus-icon {
+        width: 20px;
+        position: absolute;
+        bottom: 5px;
+        right: 2px;
+    }
+    
+    .products .product .rating {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: absolute;
+        bottom: 10px;
+        left: 5px;
+    }
+    
+    .rating img {
+        height: 16px;
+    }
+    
+    .sale-tag {
+        position: absolute;
+        border-radius: 5px;
+    }
+    
+    .product .price {
+        position: absolute;
+        bottom: 30px;
+        left: 5px;
+    }
+    
+    .best-sellers .product .price {
+        bottom: 5px;
+        
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-section {
+        width: 50%; 
+    }
+    
+    .social-icons img {
+        width: 40px; 
+    }
+/* Category */
+.product-category-buttons {
+    flex-wrap: wrap;
+}
+.product-category-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.product-category-button img {
+    width: 38px;
+}
+
+/* Product Page Info */
+.product-detail-section {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.product-images, .product-info {
+    text-align: center; /* 确保图片居中显示 */
+    width: 100%;
+}
+
+.main-image {
+    width: 310px;
+}
+
+.thumbnail-images {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-images img {
+    width: 25%; 
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-info {
+    text-align: left;
+    width: 100%;
+}
+
+.stock-status {
+    bottom: 2px;
+    right: 10px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+/* Variations */
+
+#dog-name  {
+    width: 320px;
+    border: none;
+    border-radius: 5px;
+}
+
+.info-container {
+    position:relative;
+}
+
+.accordion {
+    width: 80%;
+}
+
+/* cart items */
+.cart-container {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.cart-content {
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+}
+
+.cart-items {
+    width: 100%;
+}
+
+
+.item-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.cart-item .quantity {
+    width: 100px;
+}
+.cart-item{
+    position: relative;
+}
+.remove-item {
+    position: absolute;
+    top:15px;
+    right: 15px;
+}
+
+/* checkout content */
+.checkout-content {
+    justify-content: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* form */
+.form-section {
+    width: 100%;
+}
+.half-row input{
+    width: 100%;
+}
+.third-row input, select{
+    width: 100%;
+}
+   
 }

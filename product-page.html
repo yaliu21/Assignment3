@@ -8,13 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     
 <body>
-    <! --- Navigation Bar --->
+    <!-- Navigation Bar -->
 
     <header>
         <div class="top-banner">
             Fast & Free Shipping Australia Wide
         </div>
         <nav class="main-nav">
+            <img src="images/icons/menu.svg" alt="Menu" class="menu">
             <div class="logo">
                 <a href="home.html"><img src="images/logo.png" alt="Pet Supplies Australia Logo"></a>
             </div>
@@ -47,8 +48,9 @@
                     <input type="text" placeholder="Dog">
                     <a href="search-results.html"><img src="images/icons/search.png" alt="Search"></a>
                 </div>
-                <img src="images/icons/user.png" alt="User">
-                <a href="shopping-cart1.html"><img src="images/icons/shopping-cart.png" alt="Cart"></a>
+                
+                <img src="images/icons/user.png" alt="User" class="user">
+                <a href="shopping-cart1.html"><img src="images/icons/shopping-cart.png" alt="Cart" class="cart"></a>
             </div>
         </nav>
     </header>
@@ -108,7 +110,7 @@
                         </div>
 
                         <div class="quantity-section" id="product-1">
-                            <label for="quantity">Quantity</label>
+                            <label for="quantity-product-1">Quantity</label>
                             <div class="quantity">
                                 <button class="quantity-button" onclick="decreaseQuantity('product-1')">-</button>
                                 <input type="number" id="quantity-product-1" value="1"readonly>
@@ -123,7 +125,8 @@
                 
                 </div>
 
-                <button class="green-button" id="add-to-cart-button">Add to cart</button>
+                <button class="green-button" onclick="addToCart()">Add to cart</button>
+
             </div>
         </section>
         <!-- Describtion and Reviews Section -->
@@ -143,7 +146,7 @@
         </section>
     </main>
     
-    <! --- Footer --->
+    <!--- Footer --->
 
     <footer>
         <div class="footer-section">

@@ -15,6 +15,7 @@
             Fast & Free Shipping Australia Wide
         </div>
         <nav class="main-nav">
+            <img src="images/icons/menu.svg" alt="Menu" class="menu">
             <div class="logo">
                 <a href="home.html"><img src="images/logo.png" alt="Pet Supplies Australia Logo"></a>
             </div>
@@ -47,8 +48,9 @@
                     <input type="text" placeholder="Dog">
                     <a href="search-results.html"><img src="images/icons/search.png" alt="Search"></a>
                 </div>
-                <img src="images/icons/user.png" alt="User">
-                <a href="shopping-cart.html"><img src="images/icons/shopping-cart.png" alt="Cart"></a>
+                
+                <img src="images/icons/user.png" alt="User" class="user">
+                <a href="shopping-cart2.html"><img src="images/icons/shopping-cart.png" alt="Cart" class="cart"></a>
             </div>
         </nav>
     </header>
@@ -86,7 +88,7 @@
                         <img src="images/star-solid.svg" alt="Star">
                         <span>(17)</span>
                     </div>
-                    <p class="price">$59.99 <span class="old-price">$99.99</span></p>
+                    <p class="price">$25.99 <span class="old-price">$59.99</span></p>
                     <div class="stock-status">In Stock</div>
                 </div>
                 <!-- Variations Section -->
@@ -98,7 +100,7 @@
                     </div>
                     <div class="size-quantity">
                         <div class="quantity-section" id="product-1">
-                            <label for="quantity">Quantity</label>
+                            <label for="quantity-product-1">Quantity</label>
                             <div class="quantity">
                                 <button class="quantity-button" onclick="decreaseQuantity('product-1')">-</button>
                                 <input type="number" id="quantity-product-1" value="1"readonly>
@@ -109,7 +111,7 @@
                     </div>
                 </div>
 
-                <button class="green-button" id="add-to-cart-button">Add to cart</button>
+                <button class="green-button" onclick="addToCart()">Add to cart</button>
             </div>
         </section>
         <!-- Describtion and Reviews Section -->

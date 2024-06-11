@@ -15,6 +15,7 @@
             Fast & Free Shipping Australia Wide
         </div>
         <nav class="main-nav">
+            <img src="images/icons/menu.svg" alt="Menu" class="menu">
             <div class="logo">
                 <a href="home.html"><img src="images/logo.png" alt="Pet Supplies Australia Logo"></a>
             </div>
@@ -47,8 +48,9 @@
                     <input type="text" placeholder="Dog">
                     <a href="search-results.html"><img src="images/icons/search.png" alt="Search"></a>
                 </div>
-                <img src="images/icons/user.png" alt="User">
-                <img src="images/icons/shopping-cart.png" alt="Cart">
+                
+                <img src="images/icons/user.png" alt="User" class="user">
+                <img src="images/icons/shopping-cart.png" alt="Cart" class="cart">
             </div>
         </nav>
     </header>
@@ -60,7 +62,7 @@
             <h2 class="cart-title">My Cart</h2>
             <div class="cart-content">
                 <!-- Cart Items -->
-                <div class="cart-items">
+                <div class="cart-items" id="cart-items">
                     <div class="cart-item" id="product-1">
                         <img src="images/products/product1.jpg" alt="Personalised Dog Collar" class="item-image">
                         <div class="item-details">
@@ -78,9 +80,9 @@
                 </div>
                 <!-- Cart Summary -->
                 <div class="cart-summary">
-                    <p class="summary-item">Subtotal: <span>$59.99</span></p>
-                    <p class="summary-item">Discount: <span>$0.00</span></p>
-                    <p class="summary-total">Total: <span>$59.99</span></p>
+                    <p class="summary-item">Subtotal: <span id="subtotal">$59.99</span></p>
+                    <p class="summary-item">Discount: <span id="Discount">$0.00</span></p>
+                    <p class="summary-total">Total: <span id="total">$59.99</span></p>
                     <a href="checkout.html" class="green-button">Checkout</a>
                 </div>
             </div>

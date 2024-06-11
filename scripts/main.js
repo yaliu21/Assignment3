@@ -23,3 +23,8 @@ function increaseQuantity(productId) {
     // Increase the quantity
     quantityInput.value = currentQuantity + 1;
 }
+
+function addToCart() {
+    //Remind users that the product has been added to the shopping cart
+    alert('Product added to cart!');
+}

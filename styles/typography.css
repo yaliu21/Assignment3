@@ -215,3 +215,70 @@ p {
     font-weight: bold;
     font-family: 'Arial', sans-serif;
 }
+
+@media (max-width: 391px) {
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    h3 {
+        font-size: 1em;
+        text-align: left;
+    }
+    
+    h4 {
+        font-size: 0.9em;
+        text-align: left;
+    }
+    
+    p {
+        font-size: 0.7em;
+    }
+
+    .hero-text {text-align: center;}
+
+    .sale-info .sale-highlight {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+    
+    .sale-info .sale-subtext, .hero h3{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .hero p {
+        display: none;
+    }
+
+    /* Product List */
+    .product-info .price {
+        font-size: 1.5em;
+    }
+    .product-info p {
+        font-size: 1em;
+    }
+    .price {
+        font-size: 0.8em;
+    }
+
+    .sale-tag {
+        font-size: 18px;
+    }
+    .footer-section h3 {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    .footer-section ul li a {
+        font-size: 0.8em;
+    }
+  
+}
